@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Shared
+namespace APIUtility.NET.Shared
 {
     public class EndpointEntity
     {

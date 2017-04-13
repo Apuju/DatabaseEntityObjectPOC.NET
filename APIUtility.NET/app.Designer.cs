@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET {
+namespace APIUtility.NET {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Shared
+namespace APIUtility.NET.Shared
 {
     public enum CommandItemTrackingStatus
     {

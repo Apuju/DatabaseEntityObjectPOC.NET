@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("EncryptDecrptUtility")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("trend")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("EncryptDecrptUtility")]
-[assembly: AssemblyCopyright("Copyright © trend 2006")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -5,11 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Security;
 using System.Security.Cryptography;
-using System.Text;
 using System.IO;
 using System.Runtime.InteropServices;
 
-namespace TrendMicro.TMCM.Utilities.WebUtilities
+namespace EncryptDecryptUtility.NET
 {
        
     // Reference:http://stackoverflow.com/questions/243646/how-to-read-a-pem-rsa-private-key-from-net

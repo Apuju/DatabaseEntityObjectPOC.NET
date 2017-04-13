@@ -10,7 +10,7 @@ using System.Collections;
 using System.ComponentModel;
 using log4net;
 
-namespace TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Data
+namespace APIUtility.NET.Data
 {
     public class DatabaseUtility: IDisposable
     {

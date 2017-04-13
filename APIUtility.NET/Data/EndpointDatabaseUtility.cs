@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using System.Reflection;
 using System.Data;
 using log4net;
-using TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Shared;
+using APIUtility.NET.Shared;
 
-namespace TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Data
+namespace APIUtility.NET.Data
 {
     public class EndpointDatabaseUtility: DatabaseUtility
     {
@@ -32,7 +32,7 @@ namespace TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Data
         {
             m_Logger.DebugFormat("__{0}__: {1}: Enter Function", this.GetType().Name, MethodInfo.GetCurrentMethod().Name);
             List<EndpointEntity> endpoints = new List<EndpointEntity>();
-            string cmdText = "SELECT ChildGuid AS Guid FROM dbo.fn_TMCMSDK_Inventory_QueryEndpointsByGuid(@UserGuid, @ParentGuid) WHERE ChildType = 4";
+            string cmdText = "SELECT ChildGuid AS Guid FROM dbo.fn_SDK_Inventory_QueryEndpointsByGuid(@UserGuid, @ParentGuid) WHERE ChildType = 4";
             try
             {
                 AddSqlParameter("UserGuid", SqlDbType.Char, userGuid);

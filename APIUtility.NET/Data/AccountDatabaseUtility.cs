@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using System.Reflection;
 using System.Data;
 using log4net;
-using TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Shared;
+using APIUtility.NET.Shared;
 
-namespace TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Data
+namespace APIUtility.NET.Data
 {
     public class AccountDatabaseUtility : DatabaseUtility
     {

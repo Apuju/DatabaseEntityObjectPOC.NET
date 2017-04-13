@@ -7,10 +7,10 @@ using System.Text;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
 using log4net;
-using TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Data;
-using TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Shared;
+using APIUtility.NET.Data;
+using APIUtility.NET.Shared;
 
-namespace TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Bussiness
+namespace APIUtility.NET.Bussiness
 {
     public class Server
     {

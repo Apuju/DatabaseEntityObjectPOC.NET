@@ -9,9 +9,9 @@ using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using log4net;
-using TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Shared;
+using APIUtility.NET.Shared;
 
-namespace TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Data
+namespace APIUtility.NET.Data
 {
     public class ServerDatabaseUtility: DatabaseUtility
     {
@@ -37,7 +37,7 @@ namespace TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Data
             m_Logger.DebugFormat("__{0}__: {1}: strLogonUserGuid={2}, strProductID={3}, strPluginID={4}", this.GetType().Name, MethodInfo.GetCurrentMethod().Name, strLogonUserGuid, strProductID, strPluginID);
 
             List<string> ServerGuidList = new List<string>();
-            string cmdText = "dbo.sp_TMCMSDK_QueryServerGuidListByProductType";
+            string cmdText = "dbo.sp_SDK_QueryServerGuidListByProductType";
             try
             {
                 AddSqlParameter("LogonUserGuid", SqlDbType.Char, string.IsNullOrEmpty(strLogonUserGuid) ? DBNull.Value : (Object)strLogonUserGuid);

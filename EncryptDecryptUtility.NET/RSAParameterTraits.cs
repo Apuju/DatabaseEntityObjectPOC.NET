@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace TrendMicro.TMCM.Utilities.WebUtilities
+namespace EncryptDecryptUtility.NET
 {
     internal class RSAParameterTraits
     {

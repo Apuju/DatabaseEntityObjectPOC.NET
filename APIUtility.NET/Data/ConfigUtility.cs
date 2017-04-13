@@ -7,10 +7,10 @@ using System.Data;
 using System.IO;
 using Microsoft.Win32;
 using System.Xml.XPath;
-using TrendMicro.TMCM.Utilities.WebUtilities;
+using EncryptDecryptUtility.NET;
 using System.Data.SqlClient;
 
-namespace TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Data
+namespace APIUtility.NET.Data
 {
     public class ConfigUtility
     {
@@ -23,10 +23,10 @@ namespace TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Data
                 {
                     string strConn = string.Empty;
                     string strSQLServer = "(local)\\SQLEXPRESS";
-                    string strDBName = "db_ControlManager";
+                    string strDBName = "db_Custom";
                     bool bWindowsAuthentication = false;
 
-                    RegistryKey rkRegTVCS = Registry.LocalMachine.OpenSubKey("SOFTWARE\\TrendMicro\\TVCS");
+                    RegistryKey rkRegTVCS = Registry.LocalMachine.OpenSubKey("SOFTWARE\\Custom\\TVCS");
                     strSQLServer = (string)rkRegTVCS.GetValue("SQLServer");
                     bWindowsAuthentication = (string)rkRegTVCS.GetValue("SQLWinAccount") == "1" ? true : false;
                     string strHomeDirectory = (string)rkRegTVCS.GetValue("HomeDirectory");

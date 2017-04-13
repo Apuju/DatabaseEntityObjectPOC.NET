@@ -7,8 +7,8 @@
     <ProjectGuid>{380A0340-0EA6-419E-A4FE-7AE89F258F8E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET</RootNamespace>
-    <AssemblyName>TMCMAPIUtility.NET</AssemblyName>
+    <RootNamespace>APIUtility.NET</RootNamespace>
+    <AssemblyName>APIUtility.NET</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

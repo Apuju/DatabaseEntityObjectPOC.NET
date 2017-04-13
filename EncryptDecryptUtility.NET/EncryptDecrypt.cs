@@ -1,18 +1,3 @@
-//---------------------------------------------------------------------
-// Trend Micro Confidential
-//
-// Copyright Trend Micro Inc.  All Rights Reserved.
-//
-// Component: Services
-//
-// File: EncryptDecrypt.cs
-//
-// Description: porting from java edition of encrypt/decrypt
-//              distributor.
-//
-// Owner: Gerald Cheng
-//
-
 using System;
 using System.Globalization;
 using Microsoft.VisualBasic;
@@ -20,7 +5,7 @@ using System.IO;
 using System.Text;
 using System.Security.Cryptography;
 
-namespace TrendMicro.TMCM.Utilities.WebUtilities
+namespace EncryptDecryptUtility.NET
 {
     #region PHP Encrypter & Decrypter
     public class EncryptDecryptPHPNET3DES
@@ -108,7 +93,7 @@ namespace TrendMicro.TMCM.Utilities.WebUtilities
     }
     #endregion
 
-    #region TMCM Encrypter & Decrypter
+    #region Custom Encrypter & Decrypter
     public class EncryptDecrypt
     {
         // 3/13/98 Terrence : Add the NewDecryptStr

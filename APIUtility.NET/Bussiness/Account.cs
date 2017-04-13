@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 using System.Reflection;
 using System.Data.SqlClient;
 using log4net;
-using TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Shared;
-using TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Data;
+using APIUtility.NET.Shared;
+using APIUtility.NET.Data;
 
-namespace TrendMicro.TMCM.Utilities.TMCMUtilities.TMCMAPIUtility.NET.Bussiness
+namespace APIUtility.NET.Bussiness
 {
     public class Account
     {
